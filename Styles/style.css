@@ -47,7 +47,7 @@ body{
 }
 
 .container{
-    max-width: 1005px;
+    max-width: 1176px;
     margin: 0 auto;
 
 }
@@ -56,7 +56,7 @@ body{
 
 .header{
     border: 2px solid red;
-    background-image: linear-gradient(90.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    background-image: linear-gradient(180.00deg, rgb(61, 55, 55),rgba(114, 109, 109, 0) 100%);
 
 }
 
@@ -116,7 +116,6 @@ body{
 .banner-content{
     width: 520px;
     border: 2px solid purple;
-    margin-top: 64px;
 }
 .banner-title{
     font-size: 4.38rem;
@@ -134,7 +133,7 @@ body{
 #shape{
     font-family: 'Miama', sans-serif;
     font-weight: 400;
-    font-size: 8rem;
+    font-size: 9rem;
 }
 
 .btn-banner{
@@ -207,10 +206,49 @@ body{
     gap: 40px;
 }
 
+/* run section related styles */
+.run{
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border: 2px solid gold;
+    height: 390px;
+    background-color: rgb(34, 34, 34);
+    border-radius: 18px;
+}
 
+.run-img{
+    object-fit: none;
+    object-position: 67% 34%;
+    width: 25rem;
+    height: 22rem;
+    border-radius: 18px;
+    border: 2px solid red;
+    margin-right: 30px;
 
+}
 
+.run-content{
+    border: 2px solid mintcream;
+    width: 443px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+}
 
+.run-title{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 14px;
+}
+
+.run-description{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
 
 
 
@@ -248,7 +286,6 @@ body{
 
     .banner-content{
         width: 350px;
-        /* margin-left: 20px; */
     }
 
     .banner-title{
@@ -258,10 +295,6 @@ body{
 
     #shape{
         font-size: 4rem;
-    }
-
-    .banner-img{
-        /* margin-left: 40px; */
     }
 
     .btn-download{
@@ -286,5 +319,35 @@ body{
         justify-content: center;
         align-items: center;
     }
-}
+    .run{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 353px;
+        height: 531px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    .run-content{
+        width: 287px;
+        height: 264px;
+        margin: 30px auto;
+    }
 
+    .run-img{
+        width: 17.5rem;
+        height: 10rem;
+        object-fit: cover;
+        object-position: 67% 20%;
+        margin: 0 auto 30px;
+    }
+
+    .run-title{
+        font-size: 2rem;
+        font-weight: 900;
+    }
+
+    .btn-run{
+        width: 287px;
+    }
+}
