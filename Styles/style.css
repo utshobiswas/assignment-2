@@ -250,6 +250,123 @@ body{
     margin-bottom: 30px;
 }
 
+/* team realted styles */
+.team-content{
+    max-width: 671px;
+    margin: 50px auto;
+    margin-top: 0;
+    text-align: center;
+    border: 2px dotted magenta;
+}
+
+.team-title{
+    font-size: 3rem;
+    font-weight: 900;
+    margin: 0;
+}
+
+.team-img-container{
+    height: 604px;
+    border: 2px solid tomato;
+    background-color: rgb(34, 34, 34);
+    border-radius: 18px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    margin-bottom: 80px;
+}
+.team-img-item{
+    border: 2px solid yellow;
+    border-radius: 18px;
+    height: 289px;
+    overflow: hidden;
+    position: relative;
+}
+
+.trainer-info{
+    position: relative;
+    line-height: 5px;
+    left: 25px;
+    top: 200px;
+    font-size: 20px;
+}
+
+.trainer-img-1{
+    position: absolute;
+    width: 100%;
+    height: 289px;
+    opacity: 0.8;
+}
+.trainer-img-2{
+    position: absolute;
+    width: 100%;
+    height: 289px;
+    opacity: 0.8;
+}
+.trainer-img-3{
+    position: absolute;
+    width: 100%;
+    height: 289px;
+    opacity: 0.8;
+}
+.trainer-img-4{
+    position: absolute;
+    width: 100%;
+    height: 289px;
+    opacity: 0.8;
+}
+.trainer-img-5{
+    position: absolute;
+    width: 100%;
+    height: 289px;
+    opacity: 0.8;
+}
+.trainer-img-6{
+    position: absolute;
+    width: 100%;
+    height: 289px;
+    opacity: 0.8;
+}
+
+
+
+
+/* .trainer-1{
+    background-image: url(../images/trainer1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.8;   
+}
+.trainer-2{
+    background-image: url(../images/trainer2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.trainer-3{
+    background-image: url(../images/trainer3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.trainer-4{
+    background-image: url(../images/trainer4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.trainer-5{
+    background-image: url(../images/trainer5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.trainer-6{
+    background-image: url(../images/trainer6.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+
+
+
+
 
 
 
@@ -350,4 +467,15 @@ body{
     .btn-run{
         width: 287px;
     }
+
+    .team-img-container{
+        grid-template-columns: repeat(1, 1fr);
+        height: 1790px;
+        gap: 5px;
+        padding: 20px;
+    }
+
+
+
+
 }
