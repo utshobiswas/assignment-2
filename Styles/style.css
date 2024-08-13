@@ -1,20 +1,290 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url('https://fonts.cdnfonts.com/css/miama');
+https://fontawesome.com/v5/icons/bars?f=classic&s=solid
 
-font-family: 'Miama', sans-serif;
+
 *{
     box-sizing: border-box;
-    margin: 0 auto;
+    margin: 0px;
     padding: 0px;
 }
+
 body{
     background-color: rgb(0, 0, 0);
     font-family: "Inter", sans-serif;
     color: white;
-    
+    margin: 0;
 }
 
-.button{
-    border-radius: 46px;
+/* shared styles */
+
+.btn-primary{
+    width: 224px;
+    height: 54px;
+    border-radius: 42px;
     background-color: rgb(230, 83, 60);
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 16px 40px 16px 40px;
 }
+
+.display-flex{
+    display: flex;
+}
+
+.text-primary{
+    color: white;
+}
+
+.text-secondary{
+    color: #E6533C;
+}
+
+.text-gray{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.container{
+    max-width: 1005px;
+    margin: 0 auto;
+
+}
+
+/* header related styles */
+
+.header{
+    border: 2px solid red;
+    background-image: linear-gradient(90.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+
+}
+
+/* nav related styles */
+.brand{
+    font-weight: 800;
+    font-size: 2.25rem;
+
+}
+
+.nav-bar{
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid yellow;
+}
+
+.nav-links{
+    justify-content: space-between;
+    align-items: center;
+    width: 440px;
+    height: 43px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    padding: 2px;
+    padding-right: 20px;
+}
+
+.nav-item{
+    list-style: none;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+.nav-link{
+    text-decoration: none;
+}
+
+.btn-home{
+    width: 92px;
+    height: 38px;
+    border-radius: 42px;
+    background-color: rgb(230, 83, 60);
+    border: none;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.menu-icon{
+    display: none;
+}
+
+/* Banner related styles */
+.banner-container{
+    gap: 167px;
+    margin-top: 32px;
+    border: 2px solid white;
+}
+.banner-content{
+    width: 520px;
+    border: 2px solid purple;
+    margin-top: 64px;
+}
+.banner-title{
+    font-size: 4.38rem;
+    font-weight: 900;
+    margin-bottom: 28px;
+    line-height: 90px;
+}
+
+.banner-description{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 28px;
+}
+
+#shape{
+    font-family: 'Miama', sans-serif;
+    font-weight: 400;
+    font-size: 8rem;
+}
+
+.btn-banner{
+    position: relative;
+}
+.btn-download{
+    width: 224px;
+    height: 54px;
+    border-radius: 42px;
+    background-color: black;
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 16px 40px 16px 40px;
+    position: absolute;
+}
+
+
+/* habit section styles */
+.habit{
+    border: 2px solid yellow;
+    margin-top: 100px;
+}
+
+.habit-content{
+    max-width: 671px;
+    margin: 50px auto;
+    margin-top: 0;
+    text-align: center;
+    border: 2px dotted magenta;
+}
+
+.habit-title{
+    font-size: 3rem;
+    font-weight: 900;
+    margin: 0;
+}
+
+.habit-img-content{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 230px;
+    border: 2px solid tomato;
+}
+
+.habit-img-content img{
+    border: 3px solid rgb(75, 72, 72);
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+
+.habit-img-content h5{
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 6px;
+}
+
+.habit-img-content p{
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+.habit-img-container{
+    justify-content: space-between;
+    gap: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+/* responsive media query */
+@media screen and (max-width: 576px) {
+
+    .container{
+        max-width: 353px;
+        margin: 0 auto;
+    
+    }
+    .nav-bar{
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .nav-links{
+        display: none;
+    }
+
+    .menu-icon{
+        display: block;
+        width: 20px;
+        height: 20px;
+    }
+
+    .banner-container{
+        flex-direction: column;
+        align-items: start;
+        gap: 10px;
+    }
+
+    .banner-content{
+        width: 350px;
+        /* margin-left: 20px; */
+    }
+
+    .banner-title{
+        font-size: 2.2rem;
+        line-height: 35px;
+    }
+
+    #shape{
+        font-size: 4rem;
+    }
+
+    .banner-img{
+        /* margin-left: 40px; */
+    }
+
+    .btn-download{
+        width: 169px;
+        height: 54px;
+        padding: 16px 20px 16px 20px;
+        margin-left: 10px;
+    }
+
+    .btn-banner{
+        width: 169px;
+        height: 54px;
+        padding: 16px 16px 16px 16px;
+    }
+
+    .habit-title{
+        font-size: 2rem;
+    }
+
+    .habit-img-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
