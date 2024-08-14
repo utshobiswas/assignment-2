@@ -364,9 +364,65 @@ body{
     background-repeat: no-repeat;
 } */
 
+.footer{
+    height: 489px;
+    background-color: rgb(34, 34, 34);
+    border: 2px solid red;
+}
+.footer-container{
+    border: 2px solid yellow;
+}
 
+.footer-content{
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: left;
+    height: 249px;
+    border: 2px solid bisque;
+    margin-top: 66px;
+    margin-bottom: 79px;
+}
 
+.fitness{
+    border: 2px solid orangered;
+    width: 443px;
+  
+}
 
+.footer-logo{
+    font-size: 70px;
+    font-weight: 800;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding-top: 0px;
+}
+
+.get-started{
+    height: 249px;
+    text-align: left;
+    border: 2px solid purple;
+}
+
+.get-started > h5{
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+.list-items{
+    list-style: none;
+    font-size: 23px;
+    font-weight: 400;
+    padding-left: 0px;
+    line-height: 45px;
+}
+
+.copyright{
+    width: 318px;
+    height: 24px;
+    margin: 35px auto;
+}
 
 
 
@@ -475,7 +531,26 @@ body{
         padding: 20px;
     }
 
+    .footer{
+        height: 986px;
+        margin-top: 60px;
+    }
 
+    .footer-content{
+        flex-direction: column;
+        width: 353px;
+        height: 748px;
+    }
+
+    .fitness{
+        width: 317px;
+        height: 200px;
+    }
+
+    .get-started{
+        width: 181px;
+        height: 249px;
+    }
 
 
 }
