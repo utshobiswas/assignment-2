@@ -11,7 +11,6 @@ https://fontawesome.com/v5/icons/bars?f=classic&s=solid
 
 body{
     max-width: 1366px;
-    border: 2px solid gainsboro;
     background-color: rgb(0, 0, 0);
     font-family: "Inter", sans-serif;
     color: white;
@@ -57,7 +56,6 @@ body{
 /* header related styles */
 
 .header{
-    border: 2px solid red;
     background-image: linear-gradient(180.00deg, rgb(61, 58, 58),rgba(119, 119, 119, 0) 100%);
 
 }
@@ -72,7 +70,6 @@ body{
 .nav-bar{
     justify-content: space-between;
     align-items: center;
-    border: 2px solid yellow;
 }
 
 .nav-links{
@@ -114,12 +111,10 @@ body{
     justify-content: space-between;
     align-items: center;
     margin-top: 32px;
-    border: 2px solid white;
 }
 .banner-content{
     width: 520px;
     height: 440px;
-    border: 2px solid purple;
 }
 .banner-title{
     font-size: 4.38rem;
@@ -143,26 +138,25 @@ body{
 
 .btn-banner{
     position: relative;
-
 }
 .btn-download{
     width: 224px;
     height: 54px;
     border-radius: 42px;
-    background-color: black;
+    background-color: transparent;
     border: 1px solid rgb(255, 255, 255);
     color: white;
     font-size: 18px;
     font-weight: 600;
     padding: 16px 40px 16px 40px;
     position: absolute;
+    margin-left: 15px;
 }
 
 .banner-img{
-    border: 1px solid yellow;
     max-width: 349px;
     height: 580px;
-    margin-right: 80px;
+    margin-right: 45px;
     position: relative;
 }
 
@@ -233,7 +227,6 @@ body{
 
 /* habit section styles */
 .habit{
-    border: 2px solid yellow;
     margin-top: 100px;
 }
 
@@ -242,7 +235,6 @@ body{
     margin: 50px auto;
     margin-top: 0;
     text-align: center;
-    border: 2px dotted magenta;
 }
 
 .habit-title{
@@ -257,7 +249,6 @@ body{
     align-items: center;
     text-align: center;
     width: 230px;
-    border: 2px solid tomato;
 }
 
 .habit-img-content img{
@@ -290,7 +281,6 @@ body{
     align-items: center;
     margin-top: 100px;
     margin-bottom: 100px;
-    border: 2px solid gold;
     height: 390px;
     background-color: rgb(34, 34, 34);
     border-radius: 18px;
@@ -302,13 +292,10 @@ body{
     width: 25rem;
     height: 22rem;
     border-radius: 18px;
-    border: 2px solid red;
     margin-right: 30px;
-
 }
 
 .run-content{
-    border: 2px solid mintcream;
     width: 443px;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -336,7 +323,6 @@ body{
     margin: 50px auto;
     margin-top: 0;
     text-align: left;
-    border: 2px dotted magenta;
 }
 
 .calculator-title{
@@ -346,14 +332,12 @@ body{
 }
 
 .calculator-container{
-    border: 2px solid lightsalmon;
     background-color: rgb(34, 34, 34);
     margin-bottom: 90px;
 }
 .calculator-content{
     height: 487px;
     justify-content: space-between;
-    border: 2px solid green;
 }
 
 .bmi-chart{
@@ -375,7 +359,6 @@ body{
 .calculate-bmi{
     width: 574px;
     height: 386px;
-    border: 2px solid purple;
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -401,7 +384,6 @@ body{
 
 .bmi-form{
     height: 168px;
-    border: 2px solid aqua;
     display: grid;
     grid-template-columns: repeat(2, 49%);
     gap: 10px;
@@ -445,7 +427,6 @@ body{
     margin: 50px auto;
     margin-top: 0;
     text-align: center;
-    border: 2px dotted magenta;
 }
 
 .team-title{
@@ -456,7 +437,6 @@ body{
 
 .team-img-container{
     height: 604px;
-    border: 2px solid tomato;
     background-color: rgb(34, 34, 34);
     border-radius: 18px;
     display: grid;
@@ -466,7 +446,6 @@ body{
     margin-bottom: 80px;
 }
 .team-img-item{
-    border: 2px solid yellow;
     border-radius: 18px;
     height: 289px;
     overflow: hidden;
@@ -521,11 +500,12 @@ body{
 /* our exercise styles */
 
 .exercise-video{
+
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 2px solid grey;
-    border-radius: 10px;
+    background-color: rgb(34, 34, 34);
+    border-radius: 16px;
 }
 
 .exercise-title{
@@ -533,11 +513,10 @@ body{
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
-    border: 2px solid magenta;
     font-size: 3rem;
     font-weight: 900;
-   
 }
+
 
 .exercise-video iframe{
     width: 1076px;
@@ -554,11 +533,10 @@ body{
 .footer{
     height: 489px;
     background-color: rgb(34, 34, 34);
-    border: 2px solid red;
     margin-top: 50px;
 }
 .footer-container{
-    border: 2px solid yellow;
+   padding-top: 66px;
 }
 
 .footer-content{
@@ -566,15 +544,11 @@ body{
     align-items: flex-start;
     text-align: left;
     height: 249px;
-    border: 2px solid bisque;
-    margin-top: 66px;
     margin-bottom: 79px;
 }
 
 .fitness{
-    border: 2px solid orangered;
     width: 443px;
-  
 }
 
 .footer-logo{
@@ -588,7 +562,6 @@ body{
 .get-started{
     height: 249px;
     text-align: left;
-    border: 2px solid purple;
 }
 
 .get-started > h5{
@@ -647,6 +620,7 @@ hr{
         display: block;
         width: 20px;
         height: 20px;
+        
     }
 
     .banner-container{
@@ -686,6 +660,9 @@ hr{
         width: 169px;
         height: 54px;
         padding: 16px 16px 16px 16px;
+    }
+    .btn-banner-club{
+        display: none;
     }
 
     .habit-title{
@@ -729,6 +706,10 @@ hr{
         width: 287px;
     }
 
+    .team-title{
+        font-size: 32px;
+    }
+
     .team-img-container{
         grid-template-columns: repeat(1, 1fr);
         height: 1790px;
@@ -765,13 +746,25 @@ hr{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 830px;
+        height: 780px;
     }
 
     .calculator-title{
         font-size: 2rem;
     }
 
+    .bmi-chart{
+        margin-top: 0px;
+    }
+
+    .bmi-chart-title{
+        font-size: 1rem;
+        margin-bottom: 14px;
+    } 
+
+    .calculate-bmi-title{
+        font-size: 1rem;
+    }
     .calculate-bmi{
         width: 354px;
     }
@@ -821,6 +814,14 @@ hr{
         height: 30px;
     }
     
+    .exercise-video{
+        margin-top: 20px;
+    }
+
+    .exercise-title{
+        font-size: 30px;
+    }
+
     .exercise-video iframe{
         width: 313px;
         height: 272px;
