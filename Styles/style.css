@@ -421,6 +421,8 @@ body{
 .copyright{
     width: 318px;
     height: 24px;
+    font-size: 20px;
+    font-weight: 400;
     margin: 35px auto;
 }
 
