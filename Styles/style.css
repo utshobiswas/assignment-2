@@ -217,6 +217,9 @@ body{
     width: 40px;
     height: 40px;
 }
+.badge-circle-2{
+    display: none;
+}
 
 
 
@@ -761,9 +764,14 @@ hr{
         color: white;
     }
     .badge-circle{
+        display: none;
+    }
+    .badge-circle-2{
+        display: block;
         width: 30px;
         height: 30px;
     }
+    
 
 
 }
