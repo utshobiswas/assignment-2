@@ -250,6 +250,47 @@ body{
     margin-bottom: 30px;
 }
 
+/* BMI Calculator related styles */
+
+.calculator-info{
+    max-width: 671px;
+    margin: 50px auto;
+    margin-top: 0;
+    text-align: left;
+    border: 2px dotted magenta;
+}
+
+.calculator-title{
+    font-size: 3rem;
+    font-weight: 900;
+    margin: 0;
+}
+
+.calculator-container{
+    border: 2px solid lightsalmon;
+}
+.calculator-content{
+    border: 2px solid lawngreen;
+}
+
+.bmi-chart-title{
+    font-size: 1.75rem;
+    font-weight: 900;
+}
+
+.calculate-bmi{
+    width: 577px;
+}
+
+.calculate-bmi-title{
+    font-size: 1.75rem;
+    font-weight: 900;
+}
+
+
+
+
+
 /* team realted styles */
 .team-content{
     max-width: 671px;
@@ -329,41 +370,7 @@ body{
     opacity: 0.8;
 }
 
-
-
-
-/* .trainer-1{
-    background-image: url(../images/trainer1.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    opacity: 0.8;   
-}
-.trainer-2{
-    background-image: url(../images/trainer2.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.trainer-3{
-    background-image: url(../images/trainer3.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.trainer-4{
-    background-image: url(../images/trainer4.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.trainer-5{
-    background-image: url(../images/trainer5.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.trainer-6{
-    background-image: url(../images/trainer6.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-} */
-
+/* footer related styles */
 .footer{
     height: 489px;
     background-color: rgb(34, 34, 34);
@@ -416,6 +423,11 @@ body{
     font-weight: 400;
     padding-left: 0px;
     line-height: 45px;
+}
+
+hr{
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+    margin: 0;
 }
 
 .copyright{
