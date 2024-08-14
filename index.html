@@ -124,21 +124,52 @@
             </p>
           </div>
           <div class="calculator-container">
-            <div class="calculator-content container">
+            <div class="calculator-content container display-flex">
                 <div class="bmi-chart">
                     <h3 class="bmi-chart-title">BMI Calculator Chart</h3>
+                    <table class="bmi-table">
+                        <thead>
+                            <tr>
+                                <th>BMI</th>
+                                <th>Weight Status</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-gray">
+                            <tr>
+                                <td>Below 18.5</td>
+                                <td>Underweight</td>
+                            </tr>
+                            <tr>
+                                <td>18.5 - 24.9</td>
+                                <td>Healthy</td>
+                            </tr>
+                            <tr>
+                                <td>25.0 - 29.9</td>
+                                <td>Overweight</td>
+                            </tr>
+                            <tr>
+                                <td>30.0 - and Above</td>
+                                <td>Obese</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
                 <div class="calculate-bmi">
                     <h3 class="calculate-bmi-title">Calculate your BMI</h3>
-                    <p class="text-gray">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. </p>
-                    <form action="">
+                    <p class="text-gray bmi-text">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. </p>
+                    <form class="bmi-form">
                         <input type="text" placeholder="Height/cm">
                         <input type="text" placeholder="Weight/kg">
                         <input type="text" placeholder="Age">
-                        <select name="sex" id="">Sex</select>
-                        <select name="activity" id="">Select an activity factor</select>
+                        <select name="sex" id="select-1" disabled>
+                            <option>Sex</option>
+                        </select>
+                        <select name="activity" id="select-2" disabled>
+                            <option>Select an activity factor</option>
+                        </select>
                      
                     </form>
+                    <button class="btn-primary btn-bmi">Calculate</button>
                 </div>
             </div>
           </div>
